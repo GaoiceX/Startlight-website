@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=5.0">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>Phigros:GlaciaxionWorld-Character</title>
+    <link rel="stylesheet" href="../mdui-v1.0.1/css/mdui.min.css">
+    <link rel="stylesheet" href="../mdui-v1.0.1/css/personal.css">
+    <link rel="stylesheet" href="https://fonts.akass.cn/fonts.css">
+    <script src="../mdui-v1.0.1/js/mdui.min.js" crossorigin="anonymous"></script>
+    <script src="https://sf.akass.cn/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="../mdui-v1.0.1/js/more.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="mdui-theme-primary-indigo mdui-theme-accent-blue" onload="show1(),mbshow1()" style="height: 130vh;">
+    <div id="load" class="load mdui-valign">
+        <div class="mdui-center">
+
+        </div>
+    </div>
+    <div id="contents">
+        <div class="pgw-bodg"></div>
+        <!--PC toolbar-->
+        <div class="mdui-hidden-sm-down" style="width: 100%;">
+            <div class="zhe" style="height:120vh;">
+                <div class="mdui-toolbar mdui-toolbarb">
+                    <a href="https://starlightstudio.top/project/Pht:100vh;igrosGlaciaxionWorld.html">
+                        <div class="mdui-valign">
+                            <img src="../image/pgw logo.png" width="150px">
+                        </div>
+                    </a>
+                    <div class="mdui-center">
+                        <div class="mdui-tab" mdui-tab>
+                            <a href="./PhigrosGlaciaxionWorld.html" class="mdui-ripple   ">
+                                <label>首页/home</label>
+                            </a>
+                            <a href="./download.html" class="mdui-ripple ">
+                                <label>下载/download</label>
+                            </a>
+                            <a href="./staff.html" class="mdui-ripple ">
+                                <label>制作人员/Staff</label>
+                            </a>
+                            <a href="./character.html" class="mdui-ripple  mdui-tab-active">
+                                <label>角色/character</label>
+                            </a>
+                            <a href="./world.html" class="mdui-ripple ">
+                                <label>世界观/world</label>
+                            </a>
+                            <a href="./guide.html" class="mdui-ripple">
+                                <label>操作说明/Guide</label>
+                            </a>
+                            <a href="./message.html" class="mdui-ripple">
+                                <label>寄语/message</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdui-center" style="width: 90%;">
+                    <div class="pc-flex">
+                        <div class="pc-flex-item" style="width: 30%;">
+                            <div class="mdui-row">
+                                <a href="#" name="gugu" onclick="show1()">
+                                    <div class="mdui-col-xs-12 mdui-col-sm-4">
+                                        <div class="mdui-card mdui-hoverable">
+                                            <div class="mdui-card-media">
+                                                <img src="../image/hfGeopelia.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" name="gino" onclick="show2()">
+                                    <div class="mdui-col-xs-12 mdui-col-sm-4">
+                                        <div class="mdui-card mdui-hoverable">
+                                            <div class="mdui-card-media">
+                                                <img src="../image/hfGino.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" name="dlyro" onclick="show3()">
+                                    <div class="mdui-col-xs-12 mdui-col-sm-4">
+                                        <div class="mdui-card mdui-hoverable">
+                                            <div class="mdui-card-media">
+                                                <img src="../image/hfDlyro.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="display: block;margin-bottom: 30px;"></div>
+                            <div class="mdui-row">
+                                <a href="#" name="lili" onclick="show4()">
+                                    <div class="mdui-col-xs-12 mdui-col-sm-4">
+                                        <div class="mdui-card mdui-hoverable">
+                                            <div class="mdui-card-media">
+                                                <img src="../image/hfLily.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" name="xa" onclick="show5()">
+                                    <div class="mdui-col-xs-12 mdui-col-sm-4">
+                                        <div class="mdui-card mdui-hoverable">
+                                            <div class="mdui-card-media">
+                                                <img src="../image/hfTheo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" name="kaer" onclick="show6()">
+                                    <div class="mdui-col-xs-12 mdui-col-sm-4">
+                                        <div class="mdui-card mdui-hoverable">
+                                            <div class="mdui-card-media">
+                                                <img src="../image/hfCarl.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div style="width: 65%;" class="zhe">
+                            <div id="gugu">
+                                <div class=" pc-flex-item2">
+                                    <div>
+                                        <span style="font-size: 24px;line-height: 1;">鸠/Geopelia</span><br>
+                                        <span style="font-size: 18px;line-height: 1.5;">
+                                            【冰封巡逻队 第七小队 队员】<br>
+                                            <p>
+                                                因不明原因在冰封层现身的神秘少女。<br>
+                                                被吉诺带回第七小队基地，<br>
+                                                后加入第七小队成为一名盾枪兵。<br>
+                                                拥有一支录音笔“Alpa”,<br>
+                                                是她哥哥在她十岁生日时赠送给她的礼物。
+                                            </p>
+                                        </span>
+                                        <br>
+                                        <span style="font-size: 18px;line-height: 2.5;">CV：Lyrith_迷宫莉莉丝</span>
+                                    </div>
+                                    <img src="../image/gugugu.png" class=" pc-intro-img">
+                                </div>
+                            </div>
+                            <div id="gino">
+                                <div class=" pc-flex-item2">
+                                    <div>
+                                        <span style="font-size: 24px;line-height: 1;">吉诺/Gino</span><br>
+                                        <span style="font-size: 18px;line-height: 1.5;">
+                                            【冰封巡逻队 第七小队 队员】<br>
+                                            <p>
+                                                第七小队的少年前辈。<br>
+                                                第三小队出身，在那里从他师傅手上接过了传承七百年的古董梆笛，<br>
+                                                后携梆笛转至第七小队。<br>
+                                                在烹饪方面是好手。<br>
+                                                保有着经过队长改装的两用摩托“Trophon”，<br>
+                                                其本人对其十分喜爱。<br>
+                                            </p>
+                                        </span>
+                                        <br>
+                                        <span style="font-size: 18px;line-height: 2.5;">CV：言宇洛</span>
+                                    </div>
+                                    <img src="../image/gino.png" class="pc-intro-img" alt="别问，问就是美术组咕了（无慈悲">
+                                </div>
+                            </div>
+                            <div id="dlyro">
+                                <div class="pc-flex-item2">
+                                    <div>
+                                        <span style="font-size: 24px;line-height: 1;">德利/Dlyro</span><br>
+                                        <span style="font-size: 18px;line-height: 1.5;">
+                                            【冰封巡逻队 第七小队 队长】<br>
+                                            <p>
+                                                第七小队代任队长。<br>
+                                                喜爱抽雪茄，随身携带一个雪茄盒，<br>
+                                                也因此经常与吉诺发生争端。<br>
+                                                曾经是荒年纪时期冰封巡逻队的总队长，<br>
+                                                于A.P. 740以志愿者身份回到新建立的冰封巡逻队。<br>
+                                            </p>
+                                        </span>
+                                        <br>
+                                        <span style="font-size: 18px;line-height: 2.5;">CV：幽栖</span>
+                                    </div>
+                                    <img src="../image/Dlyro.png" class="pc-intro-img">
+                                </div>
+                            </div>
+                            <div id="lili">
+                                <div class="pc-flex-item2">
+                                    <div>
+                                        <span style="font-size: 24px;line-height: 1;">莉莉/Lily</span><br>
+                                        <span style="font-size: 18px;line-height: 1.5;">
+                                            【冰封巡逻队 第七小队 队员】<br>
+                                            <p>
+                                                第七小队的医疗员。<br>
+                                                性格温柔和蔼，十分关照人。<br>
+                                                作为小队的新人，还不太熟悉大场面，<br>
+                                                正在努力学习中。<br>
+                                            </p>
+                                        </span>
+                                        <br>
+                                        <span style="font-size: 18px;line-height: 2.5;">CV：阿槿</span>
+                                    </div>
+                                    <img src="../image/lili.png" class="pc-intro-img">
+                                </div>
+                            </div>
+                            <div id="kaer">
+                                <div class="pc-flex-item2">
+                                    <div>
+                                        <span style="font-size: 24px;line-height: 1;">卡尔/Carl</span><br>
+                                        <span style="font-size: 18px;line-height: 1.5;">
+                                            【冰封巡逻队 第七小队 队员】<br>
+                                            <p>
+                                                第七小队的机械师兼外勤。<br>
+                                                性格内敛，遇到问题偶尔会慌张。<br>
+                                            </p>
+                                        </span>
+                                        <br>
+                                        <span style="font-size: 18px;line-height: 2.5;">CV：围曦阳</span>
+                                    </div>
+                                    <img src="../image/kaer.png" class="pc-intro-img">
+                                </div>
+                            </div>
+                            <div id="xa">
+                                <div class="pc-flex-item2">
+                                    <div>
+                                        <span style="font-size: 24px;line-height: 1;">西奥/Theo</span><br>
+                                        <span style="font-size: 18px;line-height: 1.5;">
+                                            【冰封巡逻队 第七小队 队员】<br>
+                                            <p>
+                                                第七小队的全职机械师。<br>
+                                                性格豪放开朗。<br>
+                                                卡尔称其为“一个豪放的梦想家”。<br>
+                                            </p>
+                                        </span>
+                                        <br>
+                                        <span style="font-size: 18px;line-height: 2.5;">CV：猫阳</span>
+                                    </div>
+                                    <img src="../image/xa.png" class="pc-intro-img">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--mobile toolbar and menu-->
+
+        <div class="mdui-hidden-md-up">
+            <div class="mdui-toolbar mdui-toolbarm zhe" mdui-headroom>
+                <a href="https://starlightstudio.top/project/PhigrosGlaciaxionWorld.html">
+                    <div class="mdui-valign">
+                        <img src="../image/pgw logo.png" width="120px">
+                    </div>
+                </a>
+                <div class="mdui-toolbar-spacer"></div>
+                <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"
+                    mdui-drawer="{target: '#main-drawer', swipe: true}">
+                    <i class="mdui-icon material-icons">menu</i>
+                </span>
+            </div>
+            <div class="mdui-drawer mdui-drawer-right" id="main-drawer">
+                <div class="mdui-list" style="margin-bottom: 76px;">
+
+                    <div class=" mdui-list">
+                        <a href="./PhigrosGlaciaxionWorld.html" class="
+                                mdui-list-item
+                                mdui-ripple
+                                ">首页/Home</a>
+                        <a href="./download.html" class="
+                                mdui-list-item
+                                mdui-ripple
+                                ">下载/Download</a>
+                        <a href="./staff.html" class="
+                                mdui-list-item
+                                mdui-ripple
+                                ">制作人员/Staff</a>
+                        <a href="./character.html" class="
+                                mdui-list-item
+                                mdui-ripple
+                                ">角色/Character</a>
+                        <a href="./guide.html" class="
+                              mdui-list-item
+                              mdui-ripple
+                              ">操作说明/Guide</a>
+                        <a href="./world.html" class="
+                                mdui-list-item
+                                mdui-ripple
+                                ">世界观/World</a>
+                        <a href="./message.html" class="
+                                mdui-list-item
+                                mdui-ripple
+                                ">寄语/Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mdui-center zhe" style="width: 90%;">
+                <div class="y-row">
+                    <div class="bitem">
+                        <a href="#" name="mbgugu" onclick="mbshow1()">
+                            <div class="">
+                                <div class="mdui-card mdui-hoverable">
+                                    <div class="mdui-card-media">
+                                        <img src="../image/hfGeopelia.png" height="auto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bitem">
+                        <a href="#" name="mbgino" onclick="mbshow2()">
+                            <div class="">
+                                <div class="mdui-card mdui-hoverable">
+                                    <div class="mdui-card-media">
+                                        <img src="../image/hfGino.png" height="auto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bitem">
+                        <a href="#" name="mbdlyro" onclick="mbshow3()">
+                            <div class="">
+                                <div class="mdui-card mdui-hoverable">
+                                    <div class="mdui-card-media">
+                                        <img src="../image/hfDlyro.png" height="100%" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bitem">
+                        <a href="#" name="mblili" onclick="mbshow4()">
+                            <div class="">
+                                <div class="mdui-card mdui-hoverable">
+                                    <div class="mdui-card-media">
+                                        <img src="../image/hfLily.png" height="auto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bitem">
+                        <a href="#" name="mbxa" onclick="mbshow5()">
+                            <div class="">
+                                <div class="mdui-card mdui-hoverable">
+                                    <div class="mdui-card-media">
+                                        <img src="../image/hfTheo.png" height="auto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bitem">
+                        <a href="#" name="mbkaer" onclick="mbshow6()">
+                            <div class="">
+                                <div class="mdui-card ">
+                                    <div class="mdui-card-media">
+                                        <img src="../image/hfCalr.png" height="auto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mdui-center" style="width: 90%;">
+                <div id="mbgugu">
+                    <img src="../image/gugugu.png" width="100%">
+                    <div>
+                        <span style="font-size: 24px;line-height: 1;">鸠/Geopelia</span><br>
+                        <span style="font-size: 18px;line-height: 1.5;">
+                            【冰封巡逻队 第七小队 队员】<br>
+                            <p>
+                                因不明原因在冰封层现身的神秘少女。<br>
+                                被吉诺带回第七小队基地，<br>
+                                后加入第七小队成为一名盾枪兵。<br>
+                                拥有一支录音笔“Alpa”,<br>
+                                是她哥哥在她十岁生日时赠送给她的礼物。
+                            </p>
+                        </span>
+                        <br>
+                        <span style="font-size: 18px;line-height: 2.5;">CV：Lyrith_迷宫莉莉丝</span>
+                    </div>
+                </div>
+                <div id="mbgino">
+                    <img src="../image/gino.png" style="width: 100%;" alt="美术组咕了，恩">
+                    <div>
+                        <span style="font-size: 24px;line-height: 1;">吉诺/Gino</span><br>
+                        <span style="font-size: 18px;line-height: 1.5;">
+                            【冰封巡逻队 第七小队 队员】<br>
+                            <p>
+                                第七小队的少年前辈。<br>
+                                第三小队出身，在那里从他师傅手上接过了传承七百年的古董梆笛，<br>
+                                后携梆笛转至第七小队。<br>
+                                在烹饪方面是好手。<br>
+                                保有着经过队长改装的两用摩托“Trophon”，<br>
+                                其本人对其十分喜爱。<br>
+                            </p>
+                        </span>
+                        <br>
+                        <span style="font-size: 18px;line-height: 2.5;">CV：言宇洛</span>
+                    </div>
+                </div>
+                <div id="mbdlyro">
+                    <img src="../image/Dlyro.png" width="100%">
+                    <div style="display: block;margin-bottom: 30px;"></div>
+                    <div>
+                        <span style="font-size: 24px;line-height: 1;">德利/Dlyro</span><br>
+                        <span style="font-size: 18px;line-height: 1.5;">
+                            【冰封巡逻队 第七小队 队长】<br>
+                            <p>
+                                第七小队代任队长。<br>
+                                喜爱抽雪茄，随身携带一个雪茄盒，<br>
+                                也因此经常与吉诺发生争端。<br>
+                                曾经是荒年纪时期冰封巡逻队的总队长，<br>
+                                于A.P. 740以志愿者身份回到新建立的冰封巡逻队。<br>
+                            </p>
+                        </span>
+                        <br>
+                        <span style="font-size: 18px;line-height: 2.5;">CV：幽栖</span>
+                    </div>
+                </div>
+                <div id="mblili">
+                    <img src="../image/lili.png" width="100%">
+                    <div style="display: block;margin-bottom: 30px;"></div>
+                    <div>
+                        <span style="font-size: 24px;line-height: 1;">莉莉/Lily</span><br>
+                        <span style="font-size: 18px;line-height: 1.5;">
+                            【冰封巡逻队 第七小队 队员】<br>
+                            <p>
+                                第七小队的医疗员。<br>
+                                性格温柔和蔼，十分关照人。<br>
+                                作为小队的新人，还不太熟悉大场面，<br>
+                                正在努力学习中。<br>
+                            </p>
+                        </span>
+                        <br>
+                        <span style="font-size: 18px;line-height: 2.5;">CV：阿槿</span>
+                    </div>
+                </div>
+                <div id="mbkaer">
+                    <img src="../image/kaer.png" width="100%">
+                    <div style="display: block;margin-bottom: 30px;"></div>
+                    <div>
+                        <span style="font-size: 24px;line-height: 1;">卡尔/Carl</span><br>
+                        <span style="font-size: 18px;line-height: 1.5;">
+                            【冰封巡逻队 第七小队 队员】<br>
+                            <p>
+                                第七小队的机械师兼外勤。<br>
+                                性格内敛，遇到问题偶尔会慌张。<br>
+                            </p>
+                        </span>
+                        <br>
+                        <span style="font-size: 18px;line-height: 2.5;">CV：围曦阳</span>
+                    </div>
+                </div>
+                <div id="mbxa">
+                    <img src="../image/xa.png" width="100%">
+                    <div style="display: block;margin-bottom: 30px;"></div>
+                    <div>
+                        <span style="font-size: 24px;line-height: 1;">西奥/Theo</span><br>
+                        <span style="font-size: 18px;line-height: 1.5;">
+                            【冰封巡逻队 第七小队 队员】<br>
+                            <p>
+                                第七小队的全职机械师。<br>
+                                性格豪放开朗。<br>
+                                卡尔称其为“一个豪放的梦想家”。<br>
+                            </p>
+                        </span>
+                        <br>
+                        <span style="font-size: 18px;line-height: 2.5;">CV：猫阳</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="div-height mdui-valign ">
+        <div class="mdui-typo mdui-center">
+            <div class="font-container "
+                style="font-family:'Saira', 'Noto Sans SC'; font-weight: normal; font-style: normal;">
+                <a href="../index.html"><p class="mdui-text-color-purple-900">2022-2023 Starlight Studio</p></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
